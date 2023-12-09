@@ -47,11 +47,18 @@ perl multi-bleu.perl ../data/yelp/references/ref0 ../data/yelp/references/ref1 .
 ## Cite our work
 If you find this repo helpful, please consider citing our work:
 ```bibtex
-@article{luo2023prompt,
-  title={Prompt-Based Editing for Text Style Transfer},
-  author={Luo, Guoqing and Han, Yu Tong and Mou, Lili and Firdaus, Mauajama},
-  journal={arXiv preprint arXiv:2301.11997},
-  year={2023},
-  url="https://arxiv.org/abs/2301.11997"
+@inproceedings{luo-etal-2023-prompt,
+    title = "Prompt-Based Editing for Text Style Transfer",
+    author = "Luo, Guoqing  and
+      Han, Yu  and
+      Mou, Lili  and
+      Firdaus, Mauajama",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    book title = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    year = "2023",
+    url = "https://aclanthology.org/2023.findings-emnlp.381",
+    pages = "5740--5750",
 }
 ```
